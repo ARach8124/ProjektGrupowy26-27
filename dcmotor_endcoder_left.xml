@@ -1,0 +1,11 @@
+<mujoco>
+    <actuator>
+        <motor name="dcmotor_left" joint="j_motor_left" ctrlrange="-1 1" gear="0.83385"/>
+    </actuator>
+
+    <sensor>
+        <jointpos name="encoder_left_pos" jonit="j_motor_left"/>
+
+        <jonitvel name="encoder_left_vel" joint="j_motor_left"/>
+    </sensor>
+</mujoco>
